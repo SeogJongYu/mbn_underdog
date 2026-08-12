@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Page() {
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <header className="border-b border-border bg-surface">
-        <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-4 sm:px-8">
+      <header className="border-b border-border bg-surface sticky top-0">
+        <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-5 py-3 sm:px-8">
           <Image
             src={Logo}
             alt="MBN"
