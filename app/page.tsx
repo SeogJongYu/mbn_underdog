@@ -18,7 +18,7 @@ export default function Page() {
 
       <div
         id="top"
-        className="mx-auto flex w-full max-w-5xl flex-col items-center px-4 pb-14 pt-4 sm:px-8 sm:pb-20 sm:pt-8"
+        className="mx-auto flex w-full max-w-5xl flex-col items-center px-4 pb-20 pt-4 sm:px-8 sm:pb-28 sm:pt-8"
       >
         <section className="w-full max-w-xl overflow-hidden rounded-2xl border border-border bg-surface shadow-sm">
           <Image
@@ -45,6 +45,18 @@ export default function Page() {
             신청서 파일을 내려받아 작성 후 안내에 따라 제출해 주세요.
           </p>
         </section>
+
+        <footer className="mt-8 flex flex-col items-center text-center text-sm leading-5 text-muted-foreground sm:mt-10 sm:text-sm font-semibold">
+          <p>문의 사항은 아래 카카오톡 메시지에 남겨주세요.</p>
+          <a
+            href="https://open.kakao.com/o/sQMmotIi"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-2 text-base font-extrabold text-primary underline decoration-2 underline-offset-4 transition hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:text-lg"
+          >
+            카카오톡으로 문의하기
+          </a>
+        </footer>
       </div>
     </main>
   );
