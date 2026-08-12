@@ -35,7 +35,7 @@ export default function Page() {
             언더독과 함께할 출연자를 기다립니다
           </p>
           <a
-            href="/MBN_언더독_참가지원서.hwp"
+            href="/mbn_underdog_application.hwp"
             download="MBN_언더독_참가지원서.hwp"
             className="mt-5 inline-flex min-h-12 w-full max-w-xs items-center justify-center rounded-xl bg-accent px-6 py-3 text-base font-bold text-accent-foreground shadow-sm transition hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent sm:w-auto"
           >
