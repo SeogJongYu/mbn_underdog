@@ -18,7 +18,7 @@ export default function Page() {
 
       <div
         id="top"
-        className="mx-auto flex w-full max-w-5xl flex-col items-center px-4 pb-20 pt-4 sm:px-8 sm:pb-28 sm:pt-8"
+        className="mx-auto flex w-full max-w-5xl flex-col items-center px-4 pb-32 pt-4 sm:px-8 sm:pb-40 sm:pt-8"
       >
         <section className="w-full max-w-xl overflow-hidden rounded-2xl border border-border bg-surface shadow-sm">
           <Image
@@ -30,7 +30,7 @@ export default function Page() {
           />
         </section>
 
-        <section className="mt-8 flex w-full max-w-xl flex-col items-center rounded-2xl bg-primary px-5 py-7 text-center text-primary-foreground sm:mt-10 sm:px-8 sm:py-9">
+        <section className="mt-4 flex w-full max-w-xl flex-col items-center rounded-2xl bg-primary px-5 py-7 text-center text-primary-foreground sm:mt-8 sm:px-8 sm:py-9">
           <p className="text-lg font-bold sm:text-xl">
             언더독과 함께할 출연자를 기다립니다
           </p>
@@ -46,7 +46,7 @@ export default function Page() {
           </p>
         </section>
 
-        <footer className="mt-8 flex flex-col items-center text-center text-sm leading-5 text-muted-foreground sm:mt-10 sm:text-sm font-semibold">
+        <footer className="mt-4 flex flex-col items-center text-center text-sm leading-5 text-muted-foreground sm:mt-8 sm:text-sm font-semibold">
           <p>문의 사항은 아래 카카오톡 메시지에 남겨주세요.</p>
           <a
             href="https://open.kakao.com/o/sQMmotIi"
